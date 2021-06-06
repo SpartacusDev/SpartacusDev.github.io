@@ -1,0 +1,75 @@
+{
+    "minVersion": "0.4",
+    "class": "DepictionTabView",
+    "tintColor": "#ff0000",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Depiction",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "markdown": "Search packages... from your favourite package manager!",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Supports Cydia, Installer, Sileo and Zebra"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "markdown": "Changelog for 0.0.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for Sileo beta"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed Canister API not working"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed crash when any API is down"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to change UI and cancel animation in said UI"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Removed lines from the Tweakio search unless you search something"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Put settings inside of the Tweakio search"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "markdown": "Changelog for 0.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed preferences not working after small rewrite"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "markdown": "Changelog for 0.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Initial release!"
+                }
+            ]
+        }
+    ]
+}
