@@ -9,7 +9,12 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Search packages... from your favourite package manager!",
+                    "title": "Search packages globally...",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "From your favourite package manager!",
                     "useBoldText": true
                 },
                 {
