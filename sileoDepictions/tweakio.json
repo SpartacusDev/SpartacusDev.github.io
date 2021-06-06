@@ -1,5 +1,5 @@
 {
-    "minVersion": "0.4",
+    "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#ff0000",
     "tabs": [
@@ -9,7 +9,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "markdown": "Search packages... from your favourite package manager!",
+                    "title": "Search packages... from your favourite package manager!",
                     "useBoldText": true
                 },
                 {
@@ -24,7 +24,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "markdown": "Changelog for 0.0.3",
+                    "title": "Changelog for 0.0.3",
                     "useBoldText": true
                 },
                 {
@@ -53,7 +53,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "markdown": "Changelog for 0.0.2",
+                    "title": "Changelog for 0.0.2",
                     "useBoldText": true
                 },
                 {
@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "markdown": "Changelog for 0.0.1",
+                    "title": "Changelog for 0.0.1",
                     "useBoldText": true
                 },
                 {
