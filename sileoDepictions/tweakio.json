@@ -13,7 +13,7 @@
                     "useBoldText": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionHeaderView",
                     "title": "From your favourite package manager!",
                     "useBoldText": true
                 },
@@ -27,6 +27,15 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed Tab Bar implementation not working properly"
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.3",
