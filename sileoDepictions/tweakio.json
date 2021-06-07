@@ -29,7 +29,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.3",
+                    "title": "Changelog for 0.0.4",
                     "useBoldText": true
                 },
                 {
