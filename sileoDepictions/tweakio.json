@@ -29,6 +29,15 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.5",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed inability to choose results and search bar disappearing when using unc0ver/checkra1n"
+                },
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.4",
                     "useBoldText": true
                 },

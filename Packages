@@ -66,3 +66,21 @@ Icon: https://spartacusdev.github.io/images/Tweakio.png
 Name: Tweakio
 Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
 
+Package: com.spartacus.tweakio
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 932
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader
+Filename: debs/com.spartacus.tweakio_0.0.5_iphoneos-arm.deb
+Size: 286322
+SHA1: d234700b5102605819ee96af6de7ab43a1b3a45a
+SHA256: a6c1f1ad62ff08faaa00b66bf8edb17c46ae22baed2ae2ebd84cfcecf5450e5b
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
