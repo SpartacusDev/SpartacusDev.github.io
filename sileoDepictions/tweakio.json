@@ -20,6 +20,10 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Supports Cydia, Installer, Sileo and Zebra"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Check out the changelog for any important notes!"
                 }
             ]
         },
@@ -27,6 +31,15 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.6",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to change between legacy and normal mode. If you are experiencing any issues with normal version, activate legacy mode in the preferences"
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.5",
