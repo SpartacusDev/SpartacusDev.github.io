@@ -13,7 +13,7 @@
                     "useBoldText": true
                 },
                 {
-                    "class": "DepictionHeaderView",
+                    "class": "DepictionSubheaderView",
                     "title": "From your favourite package manager!",
                     "useBoldText": true
                 },
@@ -33,6 +33,40 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.7",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a different method of searching in the Tweakio API"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• UI improvements"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Preferences are more reliable (switched to Cephei)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for the Tweakio App"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Dynamic preferences (only shows you the packagame managers (and Tweakio App) that you have)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed the bug when the API is online but it still shows an error message (two bugs actually)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added the error message to the error alert"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.6",
                     "useBoldText": true
                 },
@@ -40,6 +74,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Added a way to change between legacy and normal mode. If you are experiencing any issues with normal version, activate legacy mode in the preferences"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.5",
@@ -49,6 +84,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Fixed inability to choose results and search bar disappearing when using unc0ver/checkra1n"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.4",
@@ -58,6 +94,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Fixed Tab Bar implementation not working properly"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.3",
@@ -87,6 +124,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Put settings inside of the Tweakio search"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2",
@@ -96,6 +134,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Fixed preferences not working after small rewrite"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1",
