@@ -33,6 +33,24 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.8",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed issue with Tweakio's settings weird positioning"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed possible crashes while searching"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added iOS-Repo-Updates as another API (thanks to relisiuol)"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.7",
                     "useBoldText": true
                 },
