@@ -48,6 +48,10 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Added iOS-Repo-Updates as another API (thanks to relisiuol)"
                 },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Support for Sileo Nightly"
+                },
 
                 {
                     "class": "DepictionHeaderView",
