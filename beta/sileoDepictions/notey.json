@@ -1,0 +1,46 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#ff0000",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Depiction",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Open your notes from everywhere!",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Works in every app, in your homescreen, but not in your lockscreen!",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Check out the changelog for any important notes!"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Please note that updates should usually be for Tweakio"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1-79+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• This is the first stable beta version"
+                }
+            ]
+        }
+    ]
+}
