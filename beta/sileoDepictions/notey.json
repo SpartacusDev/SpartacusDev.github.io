@@ -13,7 +13,7 @@
                     "useBoldText": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionMarkdownView",
                     "title": "Works in every app, in your homescreen, but not in your lockscreen!",
                     "useBoldText": true
                 },
@@ -31,6 +31,15 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1-81+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added simple preferences just to activate/deactivate (no respring button yet)"
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1-79+debug",
