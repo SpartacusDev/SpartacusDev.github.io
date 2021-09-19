@@ -33,6 +33,20 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1-85+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• No need to respring after changing preferences"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• CC Module to enable/disable (relies on com.opa334.ccsupport. Install it if you want the CC module)"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1-81+debug",
                     "useBoldText": true
                 },
@@ -40,6 +54,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Added simple preferences just to activate/deactivate (no respring button yet)"
                 },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1-79+debug",
