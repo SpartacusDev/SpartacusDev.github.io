@@ -14,8 +14,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "title": "Works in every app, in your homescreen, but not in your lockscreen!",
-                    "useBoldText": true
+                    "title": "Works in every app, in your homescreen, but not in your lockscreen!"
                 },
                 {
                     "class": "DepictionMarkdownView",
@@ -31,6 +30,24 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1-92+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added reordering notes"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added deleting notes"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixes bug when Notey is disabled but you respring and then enable and then Notey crashes and causes another respring"
+                },
+                
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1-88+debug",
