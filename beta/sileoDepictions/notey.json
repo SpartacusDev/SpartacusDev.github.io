@@ -32,6 +32,28 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1-108+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Color picker for the text"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Change size of the notes (should only work on iPads, so I will add a way to block it from iPhones/iPods)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Dismiss keyboard with the built-in button for iPads"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Text should auto align"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1-102+debug",
                     "useBoldText": true
                 },
