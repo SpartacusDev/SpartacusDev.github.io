@@ -84,6 +84,23 @@ Name: Notey
 Sileodepiction: https://spartacusdev.github.io/beta/sileoDepictions/notey.json
 
 Package: com.spartacus.notey
+Version: 0.0.1-114+debug
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 788
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.11), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
+Filename: debs/com.spartacus.notey_0.0.1-114+debug_iphoneos-arm.deb
+Size: 125130
+SHA1: f9a1dfba4bfc2b2b6a7230c80c2bb2a991360d2d
+SHA256: a6bd3501228cbade4d1b2b4058e721b94feb1043318daac2bfe3342ca8f11f01
+Section: Tweaks
+Description: Open a note from everywhere!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/beta/depictions/notey.html
+Name: Notey
+Sileodepiction: https://spartacusdev.github.io/beta/sileoDepictions/notey.json
+
+Package: com.spartacus.notey
 Version: 0.0.1-79+debug
 Architecture: iphoneos-arm
 Maintainer: Spartacus
