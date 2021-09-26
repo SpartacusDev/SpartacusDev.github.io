@@ -287,3 +287,21 @@ Depiction: https://spartacusdev.github.io/beta/depictions/notey.html
 Name: Notey
 Sileodepiction: https://spartacusdev.github.io/beta/sileoDepictions/notey.json
 
+Package: com.spartacus.tweakio
+Version: 0.0.9-34+debug
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 968
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.spartacus.tweakio_0.0.9-34+debug_iphoneos-arm.deb
+Size: 298586
+SHA1: b7e001542e00e9e6d84154228f765fbd99d303dd
+SHA256: 2d27ccc49ef5c52acb6467aef1ddbf802935bc1112fbcda70e4aae64194d8deb
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
