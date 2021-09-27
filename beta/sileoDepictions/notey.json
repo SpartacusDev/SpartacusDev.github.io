@@ -32,6 +32,20 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-4+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Should work better"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Changed the resprings a bit"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-3+debug",
                     "useBoldText": true
                 },
