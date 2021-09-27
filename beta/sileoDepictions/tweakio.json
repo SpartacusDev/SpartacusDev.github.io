@@ -1,0 +1,182 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#ff0000",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Depiction",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Search packages globally...",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "From your favourite package manager!",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Supports Cydia, Installer, Sileo and Zebra"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Check out the changelog for any important notes!"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.9-34+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Should fix tab bar implementation for Sileo for iPads"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.8",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed issue with Tweakio's settings weird positioning"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed possible crashes while searching"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added iOS-Repo-Updates as another API (thanks to relisiuol)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Support for Sileo Nightly"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.7",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a different method of searching in the Tweakio API"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• UI improvements"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Preferences are more reliable (switched to Cephei)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for the Tweakio App"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Dynamic preferences (only shows you the package managers (and Tweakio App) that you have)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed the bug when the API is online but it still shows an error message (two bugs actually)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added the error message to the error alert"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.6",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to change between legacy and normal mode. If you are experiencing any issues with normal version, activate legacy mode in the preferences"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.5",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed inability to choose results and search bar disappearing when using unc0ver/checkra1n"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed Tab Bar implementation not working properly"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for Sileo beta"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed Canister API not working"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed crash when any API is down"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to change UI and cancel animation in said UI"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Removed lines from the Tweakio search unless you search something"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Put settings inside of the Tweakio search"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed preferences not working after small rewrite"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Initial release!"
+                }
+            ]
+        }
+    ]
+}
