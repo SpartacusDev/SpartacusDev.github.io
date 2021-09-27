@@ -32,6 +32,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-9+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed hiding Notey"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-7+debug",
                     "useBoldText": true
                 },
