@@ -32,7 +32,17 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.2+debug",
+                    "title": "Changelog for 0.0.2-1+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed the fact it didn't work"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2",
                     "useBoldText": true
                 },
                 {
