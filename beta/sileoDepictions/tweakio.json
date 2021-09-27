@@ -33,6 +33,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.9-37+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Should fix tab bar implementation for Sileo for iPhones/iPods now as well"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.9-34+debug",
                     "useBoldText": true
                 },
