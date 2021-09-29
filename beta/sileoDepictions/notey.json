@@ -32,6 +32,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-30+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Ok, NOW it actually fixed it"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-17+debug",
                     "useBoldText": true
                 },
@@ -39,7 +49,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "• Fixes small bugs involving the last feature added"
                 },
-                
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-16+debug",
