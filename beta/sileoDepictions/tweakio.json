@@ -33,6 +33,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.9-38+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Settings should look better"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.9-37+debug",
                     "useBoldText": true
                 },
