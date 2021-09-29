@@ -32,6 +32,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-32+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixes bug when attempting to open notey with the new implementation method you enter safe mode"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-30+debug",
                     "useBoldText": true
                 },
