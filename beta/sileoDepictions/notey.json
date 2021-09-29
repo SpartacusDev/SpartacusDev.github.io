@@ -32,6 +32,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-33+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• No more delay with the `FB only in CC` implementation"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-32+debug",
                     "useBoldText": true
                 },
