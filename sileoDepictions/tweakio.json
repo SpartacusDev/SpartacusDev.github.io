@@ -33,6 +33,28 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.9",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Deprecation notice for Tweakio API"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Settings (not preferences) should look better"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Tab bar implementation works again for iPads"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Workaround to enable tab bar implementation for iPhones/iPods as well (like the Zebra tab bar implementation)"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.8",
                     "useBoldText": true
                 },
