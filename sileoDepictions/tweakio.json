@@ -46,11 +46,11 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "• Tab bar implementation works again for iPads"
+                    "markdown": "• Tab bar implementation works again for iPads for Sileo"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "• Workaround to enable tab bar implementation for iPhones/iPods as well (like the Zebra tab bar implementation)"
+                    "markdown": "• Workaround to enable tab bar implementation for iPhones/iPods as well (like the Zebra tab bar implementation) for Sileo"
                 },
 
                 {
