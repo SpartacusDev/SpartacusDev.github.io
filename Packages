@@ -178,12 +178,12 @@ Package: com.spartacus.tweakio
 Version: 0.0.9-1
 Architecture: iphoneos-arm
 Maintainer: Spartacus
-Installed-Size: 972
+Installed-Size: 968
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
 Filename: debs/com.spartacus.tweakio_0.0.9-1_iphoneos-arm.deb
-Size: 298258
-SHA1: a57b30452df2bf5b15d896a7e8ffc795b842b164
-SHA256: e21a4ccd691ba2a8f9c7e19a7fe518acde999e5eb5596c1f1b3912d97179c260
+Size: 297808
+SHA1: a78db3658500a1b528ad4b505b1b43245790a5b3
+SHA256: db80d560c6293fa97700fcea203a8eb97fef3e2a3b3d8e02baa3a54d3766e2ef
 Section: Tweaks
 Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
 Author: Spartacus
