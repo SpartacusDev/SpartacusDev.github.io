@@ -32,6 +32,36 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed Notey not returning sometimes after going to the lockscreen"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Activator support (requires you to install Activator on your own)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Show only in CC (control center) option"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Use the CC toggle to open Notey instead of the FB (floating button)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to completely disable the Tweak (requires a respring)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a respring button"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1",
                     "useBoldText": true
                 },
