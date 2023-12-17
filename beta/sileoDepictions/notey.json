@@ -37,6 +37,16 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed position and border prefs"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.3-beta",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
                     "markdown": "• Fixed respring loop"
                 },
                 {
