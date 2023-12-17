@@ -32,6 +32,20 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.3-beta",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed respring loop"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a way to change position and border from preferences (only when tweak is deactivated)"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-40+debug",
                     "useBoldText": true
                 },
