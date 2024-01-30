@@ -32,6 +32,20 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed bug where device would sometimes enter respring loop"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added ability to change position of the floating button"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2",
                     "useBoldText": true
                 },
