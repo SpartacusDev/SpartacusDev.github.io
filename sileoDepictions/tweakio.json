@@ -33,6 +33,24 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.10",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated Canister API"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added Privacy Policy and TOS agreements"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added deprecation notive for Parcility"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.9-1",
                     "useBoldText": true
                 },
