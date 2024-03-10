@@ -38,11 +38,11 @@
             }
         </style>
         <h1 id="title">
-            Tweakio
+            Tweakio - TweakReviewsDB
         </h1>
         <script type="text/javascript">
             (async () => {
-                const sileoDepiction = await fetch("../sileoDepictions/tweakio.json");
+                const sileoDepiction = await fetch("../sileoDepictions/tweakio-tweakreviewsdb.json");
                 const data = await sileoDepiction.json();
                 const depiction = data.tabs.find( item => item.tabname == "Depiction");
                 const changelog = data.tabs.find( item => item.tabname == "Changelog");

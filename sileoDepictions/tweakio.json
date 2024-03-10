@@ -20,10 +20,6 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Supports Cydia, Installer, Sileo and Zebra"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Check out the changelog for any important notes!"
                 }
             ]
         },
@@ -31,6 +27,61 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.1.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for 3rd party plugins for searching and for package reviews"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Removed all APIs in favour of said plugins"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated preferences"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Slightly updated UI"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added rootless support"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added Zebra Alpha support"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Removed BigBoss icons"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Now uses the same icons as the package manager you're using (unless there are no icons)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added support for package reviews"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added way to share the deb of the package instead of downloading it to `/var/mobile/Downlaods`"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added highlights for packages that aren't in the correct architecture"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• \"Fixed\" the error where if you first install Zebra it would infinitely crash by disabling Tweakio for Zebra's first run"
+                },
+
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.10",
