@@ -3,6 +3,6 @@ Label: Sparcave Beta
 Suite: beta
 Version: 1.0.0
 Codename: cydia-ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm
 Components: main
 Description: Super cool repo yo yo as the cool kidz say
