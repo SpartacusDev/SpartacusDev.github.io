@@ -701,3 +701,39 @@ Icon: https://spartacusdev.github.io/images/Tweakio.png
 Name: Tweakio
 Sileodepiction: https://spartacusdev.github.io/sileoDepictions/beta/tweakio.json
 
+Package: com.spartacus.tweakio
+Version: 0.1.1-3+debug
+Architecture: iphoneos-arm64
+Maintainer: Spartacus
+Installed-Size: 904
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.spartacus.tweakio_0.1.1-3+debug_iphoneos-arm64.deb
+Size: 210224
+SHA1: 3679d5b77dd457000cc347d77a407811f448246e
+SHA256: 84f286a7a2522e140a7a337dd9314c44c20c7810e6df8f3a035dcd6994cfa239
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
+Package: com.spartacus.tweakio
+Version: 0.1.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 904
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.spartacus.tweakio_0.1.1-4+debug_iphoneos-arm.deb
+Size: 210168
+SHA1: 1cdd0d3c8ee969c74968a4b46ad085846794897d
+SHA256: a3727fddb3fedd0533526e3e20d9eabb11e8be6225f02c92deccc81b7d2855b9
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
