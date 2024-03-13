@@ -33,6 +33,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.1.1-7+debug and 0.1.1-8+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed preferences (UI) not working on rootless (also rootful deb was changed to verify it still works)"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.1.1-5+debug and 0.1.1-6+debug",
                     "useBoldText": true
                 },
