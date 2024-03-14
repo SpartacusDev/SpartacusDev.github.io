@@ -702,6 +702,42 @@ Name: Tweakio
 Sileodepiction: https://spartacusdev.github.io/sileoDepictions/beta/tweakio.json
 
 Package: com.spartacus.tweakio
+Version: 0.1.1-12+debug
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 904
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.spartacus.tweakio_0.1.1-12+debug_iphoneos-arm.deb
+Size: 210068
+SHA1: cfe366f52c4e239179061e7bc4eb141661f4369b
+SHA256: 3bd1805c085e11049a8fcc0e386d4b57063b10b84bfa2bb84aaabb30026ec20f
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
+Package: com.spartacus.tweakio
+Version: 0.1.1-13+debug
+Architecture: iphoneos-arm64
+Maintainer: Spartacus
+Installed-Size: 904
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.1.2), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.spartacus.tweakio_0.1.1-13+debug_iphoneos-arm64.deb
+Size: 210260
+SHA1: e55abd2ab36710979de4282ba2ab5a8c4d827e03
+SHA256: ace9fcde29f85d88f7f8841f36fbe9f6acca4f5ccb2f13fef020b94019b02c26
+Section: Tweaks
+Description: A global package search tab for Cydia, Installer, Sileo and Zebra!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
+Package: com.spartacus.tweakio
 Version: 0.1.1-3+debug
 Architecture: iphoneos-arm64
 Maintainer: Spartacus
@@ -808,4 +844,40 @@ Depiction: https://spartacusdev.github.io/depictions/tweakio.html
 Icon: https://spartacusdev.github.io/images/Tweakio.png
 Name: Tweakio
 Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio.json
+
+Package: com.spartacus.tweakio.tweakreviewsdb
+Version: 0.0.2-5+debug
+Architecture: iphoneos-arm
+Maintainer: Spartacus
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), com.spartacus.tweakio (>= 0.1.0)
+Filename: debs/com.spartacus.tweakio.tweakreviewsdb_0.0.2-5+debug_iphoneos-arm.deb
+Size: 9382
+SHA1: 31088dfbfc25b179341e092f7d12e0638e72159b
+SHA256: 01e3795c07e919e92805445aa80f4832f39cee40d40491ecf89744bacde2c28b
+Section: Tweaks
+Description: Adds TweakReviewsDB reviews to Tweakio
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio-tweakreviewsdb.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio TweakReviewsDB
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio-tweakreviewsdb.json
+
+Package: com.spartacus.tweakio.tweakreviewsdb
+Version: 0.0.2-6+debug
+Architecture: iphoneos-arm64
+Maintainer: Spartacus
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), com.spartacus.tweakio (>= 0.1.0)
+Filename: debs/com.spartacus.tweakio.tweakreviewsdb_0.0.2-6+debug_iphoneos-arm64.deb
+Size: 9450
+SHA1: b12d1a0f4df7fc09beb021a86533a5f906c87050
+SHA256: 48fc760320e3228bf109d68df2a20e00fcfcdd900d8d5a8c09595fa4adaa4e6d
+Section: Tweaks
+Description: Adds TweakReviewsDB reviews to Tweakio
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakio-tweakreviewsdb.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: Tweakio TweakReviewsDB
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakio-tweakreviewsdb.json
 

@@ -33,6 +33,16 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.1.1-12+debug and 0.1.1-13+debug",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated the way ratings APIs work"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.1.1-7+debug and 0.1.1-8+debug",
                     "useBoldText": true
                 },

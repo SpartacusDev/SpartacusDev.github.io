@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Sparcave</title>
-        <link rel="shortcut icon" type="image/png" href="/images/webicon.png" style="border-radius: 50%;">
+        <link rel="shortcut icon" type="image/png" href="images/webicon.png" style="border-radius: 50%;">
         <meta name="viewport" content="width=device-width">
         <meta charset="utf-8">
     </head>
@@ -21,10 +21,6 @@
                 margin-top: 0%;
             }
 
-            #subtitle, .changelog, h4, #subsubtitle {
-                text-align: center;
-            }
-
             .page-footer {
                 text-align: center;
                 position: fixed;
@@ -36,54 +32,125 @@
             a {
                 color: #7a7a7a;
             }
+
+            #items {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .item {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                max-width: 300px;
+                text-align: center;
+                font-family: arial;
+                float: left;
+                width: 50%;
+                padding: 0 10px;
+            }
+
+            .item a {
+                border: none;
+                outline: 0;
+                padding: 12px;
+                color: white;
+                background-color: #222222;
+                text-align: center;
+                width: 100%;
+                font-size: 18px;
+                text-decoration: none;
+            }
+
+            .item a b {
+                background-color: #222222;
+            }
+
+            .item a:hover {
+                opacity: 0.7;
+            }
+
+            .item a b:hover {
+                opacity: 75%;
+            }
+
+            .item img {
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+            }
+
+            .item img:hover {
+                animation: rotate-image infinite 1s linear;
+            }
+
+            @keyframes rotate-image {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
         </style>
         <h1 id="title">
-            Tweakio Beta
+            SpartacusDev
         </h1>
-        <script type="text/javascript">
-            (async () => {
-                const sileoDepiction = await fetch("../sileoDepictions/tweakio.json");
-                const data = await sileoDepiction.json();
-                const depiction = data.tabs.find( item => item.tabname == "Depiction");
-                const changelog = data.tabs.find( item => item.tabname == "Changelog");
-                const elements = [];
-                const subtitle = document.createElement("h2");
-                subtitle.id = "subtitle";
-                depiction.views.filter( item => item.useBoldText === true).forEach( item => subtitle.textContent ? subtitle.textContent += " " + item.title : subtitle.textContent = item.title);
-                const subsubtitle = document.createElement("h3");
-                subsubtitle.id = "subsubtitle";
-                depiction.views.filter( item => item.class === "DepictionMarkdownView").forEach( item => subsubtitle.textContent ? subsubtitle.textContent += " " + item.markdown : subsubtitle.textContent = item.markdown);
-
-                document.body.append(subtitle, subsubtitle);
-
-                for (let item of changelog.views) {
-                    if (item.class === "DepictionHeaderView") {
-                        if (elements.length !== 0 && elements[elements.length - 1].tagName === "H4" && elements[elements.length - 1].childNodes.length !== 0) {
-                            elements[elements.length - 1].removeChild(elements[elements.length - 1].lastChild);
-                        }
-                        const element = document.createElement("h3");
-                        element.className = "changelog";
-                        element.textContent = item.title;
-                        elements.push(element);
-                        continue;
-                    }
-
-                    if (elements[elements.length - 1].tagName !== "H4") {
-                        elements.push(document.createElement("h4"));
-                    }
-                    const element = document.createElement("li");
-                    element.textContent = item.markdown.startsWith("• ") ? item.markdown.slice(2) : item.markdown;
-                    elements[elements.length - 1].append(element);
-                    elements[elements.length - 1].append(document.createElement("br"));
-                }
-
-                document.body.append(...elements);
-            })();
-        </script>
-
+        <div id="items">
+            <div class="item">
+                <h1>Tweakio</h1>
+                <img src="images/Tweakio.png" alt="Tweakio">
+                <p class="price">Free!</p>
+                <p>Search packages globally... from your favourite package manager!</p>
+                <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://spartacusdev.github.io/"><b>Add to Cydia</b></a></p><br>
+                <p><a href="installer://add/repo=https://spartacusdev.github.io/"><b>Add to Installer</b></a></p><br>
+                <p><a href="sileo://source/https://spartacusdev.github.io/"><b>Add to Sileo</b></a></p><br>
+                <p><a href="zbra://sources/add/https://spartacusdev.github.io/"><b>Add to Zebra</b></a></p>
+            </div>
+            <div class="item">
+                <h1>Canister</h1>
+                <img src="images/Tweakio.png" alt="Tweakio">
+                <p class="price">Free!</p>
+                <p>Canister plugin for Tweakio!</p>
+                <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://spartacusdev.github.io/"><b>Add to Cydia</b></a></p><br>
+                <p><a href="installer://add/repo=https://spartacusdev.github.io/"><b>Add to Installer</b></a></p><br>
+                <p><a href="sileo://source/https://spartacusdev.github.io/"><b>Add to Sileo</b></a></p><br>
+                <p><a href="zbra://sources/add/https://spartacusdev.github.io/"><b>Add to Zebra</b></a></p>
+            </div>
+            <div class="item">
+                <h1>iOSRepoUpdates</h1>
+                <img src="images/Tweakio.png" alt="Tweakio">
+                <p class="price">Free!</p>
+                <p>iOS Repo Updates plugin for Tweakio!</p>
+                <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://spartacusdev.github.io/"><b>Add to Cydia</b></a></p><br>
+                <p><a href="installer://add/repo=https://spartacusdev.github.io/"><b>Add to Installer</b></a></p><br>
+                <p><a href="sileo://source/https://spartacusdev.github.io/"><b>Add to Sileo</b></a></p><br>
+                <p><a href="zbra://sources/add/https://spartacusdev.github.io/"><b>Add to Zebra</b></a></p>
+            </div>
+            <div class="item">
+                <h1>TweakReviewsDB</h1>
+                <img src="images/Tweakio.png" alt="Tweakio">
+                <p class="price">Free!</p>
+                <p>TweakReviewsDB for Tweakio!</p>
+                <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://spartacusdev.github.io/"><b>Add to Cydia</b></a></p><br>
+                <p><a href="installer://add/repo=https://spartacusdev.github.io/"><b>Add to Installer</b></a></p><br>
+                <p><a href="sileo://source/https://spartacusdev.github.io/"><b>Add to Sileo</b></a></p><br>
+                <p><a href="zbra://sources/add/https://spartacusdev.github.io/"><b>Add to Zebra</b></a></p>
+            </div>
+            <div class="item">
+                <h1>Notey</h1>
+                <img src="images/Notey.png" alt="Notey">
+                <p class="price">Free!</p>
+                <p>Open your notes from everywhere!</p>
+                <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://spartacusdev.github.io/"><b>Add to Cydia</b></a></p><br>
+                <p><a href="installer://add/repo=https://spartacusdev.github.io/"><b>Add to Installer</b></a></p><br>
+                <p><a href="sileo://source/https://spartacusdev.github.io/"><b>Add to Sileo</b></a></p><br>
+                <p><a href="zbra://sources/add/https://spartacusdev.github.io/"><b>Add to Zebra</b></a></p>
+            </div>
+        </div>
         <footer class="page-footer">
             <a href="mailto:dev.spartacus@gmail.com">Contact Us</a>
-            <a href="https://github.com/Spartacusboy">Github</a>
+            <a href="https://github.com/SpartacusDev">Github</a>
             <a href="https://discord.gg/mZZhnRDGeg">Support Discord Server</a>
         </footer>
+    </body>
 </html>

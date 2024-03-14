@@ -1,0 +1,43 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#ff0000",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Depiction",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Search packages globally through Tweakio using Canister!",
+                    "useBoldText": true
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-5 and 0.0.2-6",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed error message when reviews were not found!"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Initial release!"
+                }
+            ]
+        }
+    ]
+}
