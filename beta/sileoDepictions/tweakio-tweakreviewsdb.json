@@ -9,7 +9,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Search packages globally through Tweakio using Canister!",
+                    "title": "See tweak reviews in Tweakio using TweakReviewsDB!",
                     "useBoldText": true
                 }
             ]
@@ -18,16 +18,6 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.2-5 and 0.0.2-6",
-                    "useBoldText": true
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "• Fixed error message when reviews were not found!"
-                },
-
                 {
                     "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1",
