@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sparcave</title>
+        <link rel="shortcut icon" type="image/png" href="/images/webicon.png" style="border-radius: 50%;">
+        <meta name="viewport" content="width=device-width">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+                background-color: #000000;
+                color: #7a7a7a;
+            }
+
+            #title {
+                text-align: center;
+                background-color: indigo;
+                height: 40px;
+                margin-top: 0%;
+            }
+
+            #subtitle, .changelog, h4, #subsubtitle {
+                text-align: center;
+            }
+
+            .page-footer {
+                text-align: center;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+
+            a {
+                color: #7a7a7a;
+            }
+        </style>
+        <h1 id="title">
+            Tweakio - iOS Repo Updates Beta
+        </h1>
+        <script type="text/javascript">
+            (async () => {
+                const sileoDepiction = await fetch("../sileoDepictions/tweakio-ios-repo-updates.json");
+                const data = await sileoDepiction.json();
+                const depiction = data.tabs.find( item => item.tabname == "Depiction");
+                const changelog = data.tabs.find( item => item.tabname == "Changelog");
+                const elements = [];
+                const subtitle = document.createElement("h2");
+                subtitle.id = "subtitle";
+                depiction.views.filter( item => item.useBoldText === true).forEach( item => subtitle.textContent ? subtitle.textContent += " " + item.title : subtitle.textContent = item.title);
+                const subsubtitle = document.createElement("h3");
+                subsubtitle.id = "subsubtitle";
+                depiction.views.filter( item => item.class === "DepictionMarkdownView").forEach( item => subsubtitle.textContent ? subsubtitle.textContent += " " + item.markdown : subsubtitle.textContent = item.markdown);
+
+                document.body.append(subtitle, subsubtitle);
+
+                for (let item of changelog.views) {
+                    if (item.class === "DepictionHeaderView") {
+                        if (elements.length !== 0 && elements[elements.length - 1].tagName === "H4" && elements[elements.length - 1].childNodes.length !== 0) {
+                            elements[elements.length - 1].removeChild(elements[elements.length - 1].lastChild);
+                        }
+                        const element = document.createElement("h3");
+                        element.className = "changelog";
+                        element.textContent = item.title;
+                        elements.push(element);
+                        continue;
+                    }
+
+                    if (elements[elements.length - 1].tagName !== "H4") {
+                        elements.push(document.createElement("h4"));
+                    }
+                    const element = document.createElement("li");
+                    element.textContent = item.markdown.startsWith("• ") ? item.markdown.slice(2) : item.markdown;
+                    elements[elements.length - 1].append(element);
+                    elements[elements.length - 1].append(document.createElement("br"));
+                }
+
+                document.body.append(...elements);
+            })();
+        </script>
+
+        <footer class="page-footer">
+            <a href="mailto:dev.spartacus@gmail.com">Contact Us</a>
+            <a href="https://github.com/Spartacusboy">Github</a>
+            <a href="https://discord.gg/mZZhnRDGeg">Support Discord Server</a>
+        </footer>
+</html>

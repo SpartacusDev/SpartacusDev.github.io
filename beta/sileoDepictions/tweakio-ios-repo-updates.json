@@ -9,7 +9,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "See tweak reviews in Tweakio using TweakReviewsDB!",
+                    "title": "Search packages globally through Tweakio using iOS Repo Updates!",
                     "useBoldText": true
                 }
             ]
@@ -20,32 +20,20 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.2-10 and 0.0.2-11",
-                    "useBoldText": true
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "• Updated Tweakio dep version"
-                },
-
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.2-7 and 0.0.2-8",
+                    "title": "Changelog for 0.0.2-1 and 0.0.2-2",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "• Changed the way I subclassed"
                 },
-
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "Changelog for 0.0.2-5 and 0.0.2-6",
-                    "useBoldText": true
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated Tweakio dep version"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "• Fixed error message when reviews were not found"
+                    "markdown": "• Updated the way I request data from the API"
                 },
                 
                 {
