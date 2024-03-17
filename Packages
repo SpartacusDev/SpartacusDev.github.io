@@ -408,3 +408,21 @@ Icon: https://spartacusdev.github.io/images/Tweakio.png
 Name: TweakioApp
 Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakioapp.json
 
+Package: com.spartacus.tweakioapp
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Spartacus
+Installed-Size: 300
+Depends: com.spartacus.tweakio (>= 0.0.7)
+Filename: debs/com.spartacus.tweakioapp_0.0.1_iphoneos-arm64.deb
+Size: 62904
+SHA1: 7a00919984b68eb719ded29be9cd2c6aa126da59
+SHA256: ec05eddf25a374c2e5f6632abac4a283a0f6e4c58ecac1519718cedd69449a4e
+Section: Utilities
+Description: A standalone application for Tweakio!
+Author: Spartacus
+Depiction: https://spartacusdev.github.io/depictions/tweakioapp.html
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Name: TweakioApp
+Sileodepiction: https://spartacusdev.github.io/sileoDepictions/tweakioapp.json
+

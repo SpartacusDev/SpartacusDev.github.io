@@ -20,12 +20,22 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2-7 and 0.0.2-8",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Changed the way I subclassed"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.2-5 and 0.0.2-6",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "• Fixed error message when reviews were not found!"
+                    "markdown": "• Fixed error message when reviews were not found"
                 },
                 
                 {
