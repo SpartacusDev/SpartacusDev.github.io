@@ -20,6 +20,24 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Changed the way I subclassed TWBaseApi"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Now depends on Tweakio 0.1.1 (or up)"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated the way I request data from the API (should display better error messages)"
+                },
+                
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.0.1",
                     "useBoldText": true
                 },

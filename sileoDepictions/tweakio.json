@@ -29,6 +29,32 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
+                    "title": "Changelog for 0.1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed downloads not working"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed preferences not working on rootless"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed preferences (UI) not working on rootless"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Updated the way ratings APIs and searching APIs work"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added a few more error messages so Tweakio won't crash"
+                },
+
+                {
+                    "class": "DepictionHeaderView",
                     "title": "Changelog for 0.1.0",
                     "useBoldText": true
                 },
